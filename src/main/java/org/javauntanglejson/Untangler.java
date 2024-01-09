@@ -126,7 +126,7 @@ public class Untangler {
     }
     private static ArrayList<String> arrayMatrix() {
         ArrayList<String> jsonRows = new ArrayList<>();
-        ArrayList<String> processedKeys = new ArrayList<>();
+        //ArrayList<String> processedKeys = new ArrayList<>();
         ArrayList<String> arrayKeys = new ArrayList<>();
         for (jsonFinal finalJSON: finalJSONArray) { arrayKeys.add(finalJSON.key); }
         List<String> uniqueKeys = arrayKeys.stream().distinct().collect(Collectors.toList());
